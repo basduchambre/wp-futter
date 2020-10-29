@@ -1,0 +1,48 @@
+.wpFutter {
+    &__notifications__wrapper {
+        padding: 1rem;
+        margin: 0.5rem;
+        border: 1px dashed grey;
+        border-radius: 0.5rem;
+        &--title {
+            font-weight: bold;
+            font-size: 1.25rem;
+            color: darkred;
+        }
+        &--message {
+            color: lightgrey;
+        }
+    }
+    &__container {
+        background: yellowgreen;
+        padding: 1rem;
+        max-width: 100%;
+        margin: 1rem 0;
+    }
+    &__list {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 1rem;
+        @media screen and (max-width: 1024px) {
+            grid-template-columns: auto auto;
+        }
+        @media screen and (max-width: 768px) {
+            grid-template-columns: auto;
+        }
+        li {
+            width: 100%;
+            img {
+                width: 100%;
+                height: 420px;
+                object-fit: cover;
+                @media screen and (max-width: 768px) {
+                    grid-template-columns: auto auto;
+                    height: 320px;
+                }
+                @media screen and (max-width: 480px) {
+                    grid-template-columns: auto;
+                }
+            }
+        }
+    }
+}
