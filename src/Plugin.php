@@ -8,7 +8,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 final class Plugin {
 
-    public static function services_list()
+    public static function services()
     {
         return [
             Core\Enqueues::class,
@@ -19,19 +19,11 @@ final class Plugin {
         ];
     }
 
-    public static function services()
+    public static function init()
     {
-        foreach ( self::services_list() as $class ) {
-            $service = self::instantiate( $class );
-            if ( method_exists( $service, 'register' ) ) {
-                $service->register();
-            }
+        foreach ( self::services() as $class ) {
+            new $class;
         }
-    }
-
-    private static function instantiate( $class )
-    {
-        return new $class;
     }
 
 }

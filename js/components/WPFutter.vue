@@ -38,7 +38,7 @@ export default {
   computed: {
     mostRecentUploads() {
       if (this.feed) {
-        return this.feed.slice(0, 6);
+        return this.feed.slice(0, 3);
       }
     },
   },

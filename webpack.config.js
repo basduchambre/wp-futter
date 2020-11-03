@@ -10,6 +10,9 @@ module.exports = {
     filename: './dist/js/app.js',
     path: path.resolve(__dirname)
   },
+  stats: {
+    chunks: false
+  },
   module: {
     rules: [
       {

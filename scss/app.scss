@@ -14,15 +14,15 @@
         }
     }
     &__container {
-        background: yellowgreen;
-        padding: 1rem;
+        background: transparent;
+        padding: 1rem 5rem;
         max-width: 100%;
         margin: 1rem 0;
     }
     &__list {
         display: grid;
         grid-template-columns: auto auto auto;
-        gap: 1rem;
+        gap: 3rem;
         @media screen and (max-width: 1024px) {
             grid-template-columns: auto auto;
         }

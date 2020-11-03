@@ -10,8 +10,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 class Enqueues extends Controller {
 
-	function register() 
+	function __construct() 
 	{
+		parent::__construct();
 		add_action( 'wp_enqueue_scripts', array( $this, 'enqueue' ) );
 	}
 

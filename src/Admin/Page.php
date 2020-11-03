@@ -10,7 +10,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 class Page extends Controller {
 
-	public function register() 
+	public function __construct() 
 	{
 		add_action( 'admin_init', array( $this, 'settings' ) );
 	}

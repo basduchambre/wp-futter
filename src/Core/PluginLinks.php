@@ -10,7 +10,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 class PluginLinks extends Controller {
 
-    public function register()
+    public function __construct()
     {
         add_filter( "plugin_action_links_$this->name", array($this, 'plugin_links'));
     }

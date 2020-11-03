@@ -8,7 +8,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 class Shortcode {
 
-	function register() 
+	function __construct() 
 	{
 		add_shortcode('wp-futter', array($this, 'output')); 
 	}

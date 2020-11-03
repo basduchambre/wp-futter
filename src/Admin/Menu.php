@@ -10,8 +10,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 class Menu extends Controller {
 
-	public function register() 
+	public function __construct() 
 	{
+		parent::__construct();
 		add_action( 'admin_menu', array( $this, 'add_admin_menu_page' ) );
 	}
 
