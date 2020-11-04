@@ -54,13 +54,16 @@ export default {
 <style lang="scss" scoped>
 ul {
   display: flex;
-  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style: none;
   li {
     display: flex;
     justify-content: flex-end;
+    padding: 0 0.5rem;
     svg {
-      width: 1rem;
-      margin: 0 0.5rem 0 1rem;
+      width: 1.33rem;
+      margin: 0 0.33rem;
     }
     span {
       font-weight: bold;

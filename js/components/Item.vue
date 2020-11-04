@@ -7,7 +7,6 @@
         :alt="item.text"
       />
       <div class="wpFutter__list__item--overlay">
-        <p class="wpFutter__list__item--overlay-text" v-html="item.text"></p>
         <wp-futter-counts :counts="item.counts" />
       </div>
     </div>
@@ -61,8 +60,8 @@ export default {
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
     display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
     padding: 1rem;
     &-text {
       font-weight: bold;

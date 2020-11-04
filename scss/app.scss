@@ -15,24 +15,18 @@
     }
     &__container {
         background: transparent;
-        padding: 3rem;
+        padding: 0;
         max-width: 100%;
         margin: 1rem 0;
-        @media screen and (max-width: 1024px) {
-            padding: 2rem;
-        }
-        @media screen and (max-width: 768px) {
-            padding: 1rem;
-        }
     }
     &__list,
     &__loaders {
         display: grid;
         grid-template-columns: auto auto auto;
-        gap: 3rem;
+        gap: 2rem;
         @media screen and (max-width: 1024px) {
             grid-template-columns: auto auto;
-            gap: 2rem;
+            gap: 1.5rem;
         }
         @media screen and (max-width: 768px) {
             grid-template-columns: auto;
