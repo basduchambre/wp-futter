@@ -15,8 +15,15 @@ class Shortcode {
 
 	public function output() 
 	{
-		return '<div id="WPFutter" data-ig="' . get_option('instagram_handle') . '"></div>';
-	}
+		$option_field = get_option('wp_futter');
 
+		$options = [
+			'handle' => $option_field['handle'],
+			'amount' => $option_field['amount'] ?? 3,
+			'bg_color' => $option_field['bg_color'] ?? 'transparent'
+		];
+
+		return '<div id="WPFutter" data-options="' . htmlspecialchars(json_encode($options)) . '"></div>';
+	}
 
 }

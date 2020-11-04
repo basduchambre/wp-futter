@@ -15,19 +15,28 @@
     }
     &__container {
         background: transparent;
-        padding: 1rem 5rem;
+        padding: 3rem;
         max-width: 100%;
         margin: 1rem 0;
+        @media screen and (max-width: 1024px) {
+            padding: 2rem;
+        }
+        @media screen and (max-width: 768px) {
+            padding: 1rem;
+        }
     }
-    &__list {
+    &__list,
+    &__loaders {
         display: grid;
         grid-template-columns: auto auto auto;
         gap: 3rem;
         @media screen and (max-width: 1024px) {
             grid-template-columns: auto auto;
+            gap: 2rem;
         }
         @media screen and (max-width: 768px) {
             grid-template-columns: auto;
+            gap: 1rem;
         }
         li {
             width: 100%;

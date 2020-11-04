@@ -18,7 +18,7 @@ final class Plugin {
             Admin\Page::class,
         ];
     }
-
+    
     public static function init()
     {
         foreach ( self::services() as $class ) {

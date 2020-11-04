@@ -2,7 +2,6 @@
 	<h1>WP Futter settings</h1>
 	<?php settings_errors(); ?>
 
-
 	<form method="post" action="options.php">
 		<?php 
 			settings_fields( 'wp-futter' );
