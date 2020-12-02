@@ -1,18 +1,16 @@
-name: Deploy to WordPress SVN
-on: 
+name: Deploy to WordPress.org
+on:
   push:
-    tags: 
-      - '*'
+    tags:
+    - "*"
 jobs:
   tag:
     name: Wordpress release
-    runs-on: ubunti-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
       - name: Wordpress plugin deploy
-        uses: 10up/actions-wordpress/dotorg-plugin-deploy@master
+        uses: 10up/action-wordpress/dotorg-plugin-deploy@stable
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN}} 
           SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}  
           SVN_USERNAME: ${{ secrets.SVN_USERNAME }}  
-          SLUG: wp-futter  
