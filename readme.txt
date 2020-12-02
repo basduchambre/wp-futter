@@ -9,7 +9,7 @@ Requires PHP: 7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-This plugin simply calls an API and loads in a given Instagram feed. Profile has to be set on public.
+This plugin connects to an API and loads in a given Instagram feed. Profile has to be set on public.
 
 == Description ==
 
