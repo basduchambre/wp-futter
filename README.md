@@ -20,4 +20,4 @@ This plugin:
 - Pull this into the plugins directory of your project either by cloning or using composer. Make sure you have [Node.js](https://nodejs.org/) and [Composer](https://getcomposer.org) installed. 
 - Run `npm install`
 - Run `composer install`
-
+- 
