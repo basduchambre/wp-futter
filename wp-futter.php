@@ -5,17 +5,13 @@
  * Description: Instagram feed for WP created in VueJS
  * Version: 0.0.3
  * License: GPL2+
- * Author: Bas du Chambre <bas@duchambre.media> & Maurits Meester <maurits@e-mmer.nl>
+ * Author: Growise <bas@growise.pro>
  * Author URI: https://growise.pro
  */
 
 defined ( 'ABSPATH' ) or die;
 
 require __DIR__ . '/vendor/autoload.php';
-
-define('PLUGIN_PATH', plugin_dir_path( __FILE__ ));
-define('PLUGIN_URL', plugin_dir_url( __FILE__ ));
-define('PLUGIN', plugin_basename( __FILE__ ));
 
 if ( class_exists( 'Growise\\WPFutter\Plugin' ) ) {
     Growise\WPFutter\Plugin::init();
