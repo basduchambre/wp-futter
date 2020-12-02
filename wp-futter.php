@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Plugin Name: WP Futter
  * Description: Instagram feed for WP created in VueJS
