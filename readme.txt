@@ -3,7 +3,7 @@ Contributors: basduchambre
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=bastiaanvandekamer%40gmail.com&item_name=WP+Futter&currency_code=EUR
 Tags: instagram, social, feed
 Requires at least: 5.0
-Tested up to: 5.4
+Tested up to: 5.5
 Stable tag: 1.0
 Requires PHP: 7.0
 License: GPLv2 or later
