@@ -1,0 +1,108 @@
+ul[data-v-af00df76] {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+ul li[data-v-af00df76] {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 0.5rem;
+}
+ul li svg[data-v-af00df76] {
+      width: 1.33rem;
+      margin: 0 0.33rem;
+}
+ul li span[data-v-af00df76] {
+      font-weight: bold;
+      color: #fff;
+}
+
+.wpFutter__list__item[data-v-328d7e58] {
+  position: relative;
+  height: 380px;
+  overflow: hidden;
+}
+.wpFutter__list__item--thumbnail[data-v-328d7e58] {
+    transition: transform 0.3s ease-in-out;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    transform: scale(1.05);
+}
+.wpFutter__list__item:hover .wpFutter__list__item--overlay[data-v-328d7e58] {
+    opacity: 1;
+}
+.wpFutter__list__item:hover .wpFutter__list__item--thumbnail[data-v-328d7e58] {
+    transform: scale(1);
+}
+.wpFutter__list__item--overlay[data-v-328d7e58] {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.32);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+.wpFutter__list__item--overlay-text[data-v-328d7e58] {
+      font-weight: bold;
+      color: #fff;
+}
+
+ul[data-v-1e828e42] {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.wpFutter__notifications__wrapper {
+  padding: 1rem;
+  margin: 0.5rem;
+  border: 1px dashed grey;
+  border-radius: 0.5rem; }
+  .wpFutter__notifications__wrapper--title {
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: darkred; }
+  .wpFutter__notifications__wrapper--message {
+    color: lightgrey; }
+
+.wpFutter__container {
+  background: transparent;
+  padding: 0;
+  max-width: 100%;
+  margin: 1rem 0; }
+
+.wpFutter__list, .wpFutter__loaders {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 2rem; }
+  @media screen and (max-width: 1024px) {
+    .wpFutter__list, .wpFutter__loaders {
+      grid-template-columns: auto auto;
+      gap: 1.5rem; } }
+  @media screen and (max-width: 768px) {
+    .wpFutter__list, .wpFutter__loaders {
+      grid-template-columns: auto;
+      gap: 1rem; } }
+  .wpFutter__list li, .wpFutter__loaders li {
+    width: 100%; }
+    .wpFutter__list li img, .wpFutter__loaders li img {
+      width: 100%;
+      height: 380px;
+      object-fit: cover; }
+      @media screen and (max-width: 768px) {
+        .wpFutter__list li img, .wpFutter__loaders li img {
+          grid-template-columns: auto auto;
+          height: 320px; } }
+      @media screen and (max-width: 480px) {
+        .wpFutter__list li img, .wpFutter__loaders li img {
+          grid-template-columns: auto; } }
+
