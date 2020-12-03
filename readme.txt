@@ -1,4 +1,4 @@
-=== WP Futter (Instagram) ===
+=== WP Futter (Instagram feed) ===
 Contributors: basduchambre
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=bastiaanvandekamer%40gmail.com&item_name=WP+Futter&currency_code=EUR
 Tags: instagram, social, feed
