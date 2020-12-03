@@ -2,7 +2,7 @@
 /**
  * Plugin Name: WP Futter (Instagram feed)
  * Description: Instagram feed for WP created in VueJS
- * Version: 1.0.0
+ * Version: 1.08
  * License: GPL2+
  * Author: Growise <bas@growise.pro>
  * Author URI: https://growise.pro

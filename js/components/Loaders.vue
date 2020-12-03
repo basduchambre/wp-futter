@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Skeleton height="420px" />
+    <Skeleton height="380px" />
   </div>
 </template>
 
