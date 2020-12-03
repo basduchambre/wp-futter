@@ -1,4 +1,4 @@
-# WP Futter
+# WP Futter (Instagram)
 
 Easily display your Instagram feed on your WordPress website, currently only works with public profiles.
 

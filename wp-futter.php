@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: WP Futter
+ * Plugin Name: WP Futter (Instagram)
  * Description: Instagram feed for WP created in VueJS
  * Version: 1.0.0
  * License: GPL2+
