@@ -45,5 +45,11 @@ No upgrades yet
 
 == Changelog ==
 
+= 1.12 =
+* Skeleton loaders same height as loaded images
+
+= 1.01 - 1.11 =
+* Minor fixed
+
 = 1.0 =
 * First release
