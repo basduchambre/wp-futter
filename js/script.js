@@ -5,7 +5,7 @@ import WPFutter from './WPFutter.vue'
 window.onload = function () {
     const element = document.getElementById('WPFutter');
 
-    if ( el ) {
+    if ( element ) {
         const options = element.getAttribute('data-options');
         const props = JSON.parse(options)
         new Vue({
