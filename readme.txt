@@ -45,6 +45,9 @@ No upgrades yet
 
 == Changelog ==
 
+= 1.15 =
+* Javascript fixes
+
 = 1.12 =
 * Skeleton loaders same height as loaded images
 

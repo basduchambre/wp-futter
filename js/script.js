@@ -14,7 +14,7 @@ window.onload = function () {
                 props: {
                     'hasHandle': props.handle != '' ? true : false,
                     'handle': props.handle || 'Fill in your username in the WP Futter settings',
-                    'amount': props.amount,
+                    'amount': parseInt(props.amount),
                     'bg_color': props.bg_color
                 }
             })

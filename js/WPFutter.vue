@@ -34,7 +34,7 @@ export default {
       type: String,
     },
     amount: {
-      type: String,
+      type: Number,
     },
     bg_color: {
       type: String,
