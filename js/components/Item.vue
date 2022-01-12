@@ -1,12 +1,12 @@
 <template>
   <a :href="item.url" target="_blank">
-    <div class="wpFutter__list__item">
+    <div class="wpFutter__listItem">
       <img
-        class="wpFutter__list__item--thumbnail"
-        :src="item.thumbnails[1].src"
+        class="wpFutter__listItem--thumbnail"
+        :src="item.image"
         :alt="item.text"
       />
-      <div class="wpFutter__list__item--overlay">
+      <div class="wpFutter__listItem--overlay">
         <wp-futter-counts :counts="item.counts" />
       </div>
     </div>
@@ -29,7 +29,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.wpFutter__list__item {
+.wpFutter__listItem {
   $this: &;
   position: relative;
   height: 380px;
